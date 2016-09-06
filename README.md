@@ -24,6 +24,6 @@ This repository contains Dockerfile of [nginx](https://www.nginx.com/) for [Rasp
 
 1. Run `nginx`:
 
-    `docker run -v /some/content:/usr/share/nginx/html:ro -d nonoroazoro/rpi-nginx`
+    `docker run -it --rm -p 8888:80 nonoroazoro/rpi-nginx`
 
 2. For more usage details, please refer to [nginx](https://hub.docker.com/_/nginx/).
